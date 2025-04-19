@@ -1,0 +1,33 @@
+body{
+    background-color: #bde4f1;
+}
+.me{
+    color: #045c66;
+}
+.he2{
+    color: #8cbb5b;
+}
+#img{
+    border-style: double;
+    border-width: 7px;
+    border-color: white;
+    
+}
+#para{
+    border-style: groove;
+    border-width: 3px;
+    border-color: white;
+    background-color: #d1f8ef;
+}
+.fset{
+   border-style: solid;
+   border-width: 1px;
+   border-color: rgb(12, 12, 12);
+   background-color: white;
+   
+}
+.fig{
+    border-style: double;
+    border-width: 5px;
+    border-color: black;
+}

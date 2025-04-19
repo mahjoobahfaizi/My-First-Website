@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Personal Blog">
+        <meta name="keywords" content="routine & everyday life">
+        <meta name="author" content="Mahjoobah Faizi">
+        <meta name="viewport" content="width=width-device, initial-scale=1.0">
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <h1 class="me">Contact Me!</h1>
+            <form action="successful.html" method="post">
+                <fieldset class="fset">
+                    <legend>Personal Info</legend><br>
+                    <label for="name"><strong>Name:<span style="color:red">*</span></strong></label>
+                    <input type="text" required placeholder="Enter Your Full Name" name="name" id="name"><br><br>
+                    <Label for="email"><strong>Email:<span style="color:red">*</span></strong></Label>
+                    <input type="email" required placeholder="Enter Your Email Adrress" name="email" id="email"><br><br>
+                </fieldset><br><br>
+                
+                <fieldset class="fset">
+                    <legend><strong>Message<span style="color:red">*</span></strong></legend><br>
+                    <textarea name="message" required rows="10" cols="30">Message</textarea><br><br>
+                </fieldset><br><br>
+
+                <fieldset class="fset">
+                    <legend><strong>Gender:<span style="color:red">*</span></strong></legend><br>
+                    <input type="radio" required name="gender" id="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" name="gender" id="not-to-say">
+                    <label for="not-to-say">I prefer not to say.</label>
+                </fieldset><br><br>
+
+                <fieldset class="fset">
+                    <legend><strong>Interestings: <span style="color:red">*</span></strong></legend><br>
+                    <input type="checkbox" required name="checkbox" id="reading">
+                    <label for="reading">Reading Novels</label><br>
+                    <input type="checkbox" name="checkbox" id="designing">
+                    <label for="designing">Designing</label><br>
+                    <input type="checkbox" name="checkbox" id="coding">
+                    <label for="coding">Coding</label><br>
+                    <input type="checkbox" name="checkbox" id="walking">
+                    <label for="walking">Walking</label>
+                </fieldset><br><br>
+            
+                <input type="submit"><br><br>
+                <a href="mailto: mahjoobahfaizi98@gmail.com">Send me email!</a>
+            </form>
+        </main>
+    </body>
+</html>
